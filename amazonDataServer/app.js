@@ -7,7 +7,7 @@ app.use(router);
 
 const dataRouter = require('./route/dataRoute');
 
-app.use('/*******', dataRouter);
+app.use('/*', dataRouter);
 
 app.listen(8000, () => {
     console.log("Start server on port 8000!!");
