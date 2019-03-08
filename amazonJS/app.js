@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded", () => {
     toBeCloakedElement: '.wholeBodyContainer',
     searchButtonElement: '.head-search-button'
   }, {
-    formId: '#input-form'
+    fetchUrl: 'http://localhost:8000/'
   }, {
     cloakingTransitionTime: '0.3s',
     shadingAutocorrectClass: 'shade',
