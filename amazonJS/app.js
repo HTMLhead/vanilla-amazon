@@ -1,6 +1,7 @@
 import { ScrollEventSticky } from "./scrollEvent-Sticky.js";
 import { CarouselMiddle } from "./carousel-middle.js";
 import { SearchAutocorrect } from "./search-autocorrect.js";
+import { Carousel } from "./carousel.js";
 
 document.addEventListener("DOMContentLoaded", () => {
   const scrollEventSticky = new ScrollEventSticky({
